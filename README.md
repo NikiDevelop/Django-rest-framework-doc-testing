@@ -51,6 +51,7 @@ INSTALLED_APPS = [
 
 #  Coreapi
 ----------------------------------------------
+Coreapi lo usaremos para ver la documentación que tiene la API.
 Lo primero instalamos coreapi.
 ```
 $ pip install coreapi
