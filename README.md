@@ -1,4 +1,4 @@
-# Django REST Framework + Doc + Pytest-django
+# Django REST Framework + Documentación + Pytest-django
 ----------------------------------------------
 Creamos una REST API usando Django REST Framework. Mediante el protocolo HTTP usaremos los métodos GET, POST, PUT y DELETE con el formato JSON para enviar y recibir datos. 
 Para ver la documentación de la API usaremos coreapi y usaremos para el testing pytest-django.
