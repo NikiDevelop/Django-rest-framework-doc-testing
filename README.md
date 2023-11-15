@@ -8,6 +8,8 @@ Te he dejado comentarios para que puedas comprender lo que estoy haciendo en cad
 
 # Ejecutar proyecto
 Primero, crear un entorno virtual:
+<font color="green">Este es un texto en verde</font>
+
 
 ```
 $ python -m venv env
@@ -45,7 +47,7 @@ $ pip install djangorestframework
 ```
 Agregamos ```'rest_framework'``` en ```INSTALLED_APPS``` settings
 ```
-INSTALLED_APPS = [
+INSTALLED_APPS  = [
     ...
     'rest_framework',
 ]
