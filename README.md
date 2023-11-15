@@ -2,7 +2,9 @@
 ----------------------------------------------
 Creamos una REST API usando Django REST Framework. Mediante el protocolo HTTP usaremos los métodos GET, POST, PUT y DELETE con el formato JSON para enviar y recibir datos. 
 Para ver la documentación de la API usaremos coreapi y usaremos para el testing pytest-django.
-Te he dejado comentarios para que puedas comprender lo que estoy haciendo en cada línea del código
+Te he dejado comentarios para que puedas comprender lo que estoy haciendo en cada línea del código. <br> 
+<br>
+![foto3](https://github.com/NikiDevelop/Django-rest-framework/assets/105102619/bd0ab78e-2687-4549-86a9-51b6043dbfce)
 
 # Ejecutar proyecto
 Primero, crear un entorno virtual:
@@ -51,7 +53,8 @@ INSTALLED_APPS = [
 
 #  Coreapi
 ----------------------------------------------
-Coreapi lo usaremos para ver la documentación que tiene la API.
+Coreapi lo usaremos para ver la documentación que tiene la API. <br>
+<br>
 ![foto1](https://github.com/NikiDevelop/Django-rest-framework/assets/105102619/7af0238e-aab0-4d94-8eae-39c4af1af81d)
 Lo primero instalamos coreapi.
 ```
