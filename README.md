@@ -51,7 +51,7 @@ INSTALLED_APPS = [
 ]
 ```
 
-#  Coreapi
+#  Coreapi para documentar automáticamente
 ----------------------------------------------
 Coreapi lo usaremos para ver la documentación que tiene la API. <br>
 <br>
@@ -90,7 +90,7 @@ urlpatterns = [
 
 
 ```
-#  Pytest-django
+#  Pytest-django para hacer testing de nuestra API
 ----------------------------------------------
 Lo primero instalamos pytest-django.
 ```
@@ -113,8 +113,8 @@ Creamos una carpeta que la llamaremos ```test``` a la altura de nuestro proyecto
 - api
 - proyecto
 - pytest.ini 
-- test >br>
-Dentro de la carpeta creamos un archivo ````test_user.py``` <br>
+- test <br>
+Dentro de la carpeta creamos un archivo ```test_user.py``` <br>
 Comprobamos si se crea un usuario y si tiene el mismo nombre que le pasamos.
 ```
 import pytest
@@ -131,4 +131,5 @@ def test_user_creation():
     assert user.name == 'Lucia'
 
 ```
-Si está todo bien tendría que decirte ```passed``` en color verde al ejecutar ```pytest```
+Para ejecutar nuestro test solo tienes que escribir ```pytest``` en la terminal.
+Si está todo bien tendría que decirte ```passed``` en color verde.
