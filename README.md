@@ -33,8 +33,9 @@ $ python manage.py migarate
 ```
 $ python manage.py runserver
 ```
-Para poder agregar nuevas imágenes tendrás que crearte un usuario. Rellena los datos que te pide, como nombre de usuario,
+Para poder agregar nuevos usuarios tendrás que crearte un super user. Rellena los datos que te pide, como nombre de usuario,
 el email lo puedes dejar en blanco si quieres dándole a enter y por último introduce una contraseña y repítela.
+También puedes acceder mediante la siguiente url `http://127.0.0.1:8000/api/User/` y crear uno nuevo en formato JSON.
 ```
 $ python manage.py createsuperuser
 ```
