@@ -52,6 +52,7 @@ INSTALLED_APPS = [
 #  Coreapi
 ----------------------------------------------
 Coreapi lo usaremos para ver la documentación que tiene la API.
+![foto1](https://github.com/NikiDevelop/Django-rest-framework/assets/105102619/7af0238e-aab0-4d94-8eae-39c4af1af81d)
 Lo primero instalamos coreapi.
 ```
 $ pip install coreapi
