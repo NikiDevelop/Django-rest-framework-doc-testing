@@ -9,7 +9,6 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
-# Application definition
 
 # Incluimos en apps rest_framework y coreapi
 # Coreapi lo usaremos para documentar 
