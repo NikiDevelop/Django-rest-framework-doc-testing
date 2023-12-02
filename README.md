@@ -9,7 +9,6 @@ Te he dejado comentarios para que puedas comprender lo que estoy haciendo en cad
 # Ejecutar proyecto
 Primero, crear un entorno virtual:
 
-
 ```
 $ python -m venv env
 ```
